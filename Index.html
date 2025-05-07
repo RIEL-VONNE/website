@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Icons -->
+    <div class="nav-icons">
+        <img src="01 IMAGES/home.png" onclick="showSection('home')" alt="Home">
+        <img src="01 IMAGES/work.png" onclick="showSection('work')" alt="Work">
+        <img src="01 IMAGES/mail.png" onclick="showSection('contact')" alt="Contact">
+        <a href="https://x.com/RIEL_VONNE" target="_blank"> <!-- Add your Twitter link inside href -->
+            <img src="01 IMAGES/twitter.png" alt="Twitter">
+        </a>
+    </div>
+
+    <!-- Home Section -->
+    <div id="home" class="section active">
+        <div class="profile">
+            <img src="01 IMAGES/PROFILE.jpg" alt="Profile">
+            <h2>HELLO I'M!, GABRIEL YVONNE AGBAYANI</h2>
+            <p> An IT student passionate about technology showcasing my 
+                projects and skills as I grow feel free to explore and connect! </p>
+        </div>
+    </div>
+
+    <!-- Work Section -->
+    <div id="work" class="section">
+        <h2>My Works</h2>
+        <p>Here are some of my works showcasing my skills in web development,coding game, and developer. I'm constantly learning and improving feel free to check them out!.</p>
+        <div class="work-gallery">
+            <img src="images/work1.jpg" alt="Work 1">
+            <img src="01 IMAGES/PYTHON.jpg" alt="Work 2">
+            <img src="01 IMAGES/HTML.jpg" alt="Work 3">
+            <img src="01 IMAGES/CSS.jpg" alt="Work 4">
+            <img src="01 IMAGES/JAVASCRIPT.jpg" alt="Work 5">
+            <img src="01 IMAGES/C.jpg" alt="Work 6">
+            <img src="01 IMAGES/C#.jpg" alt="Work 7">
+            <img src="01 IMAGES/C++.jpg" alt="Work 8">
+            <img src="01 IMAGES/SQL 1.jpg" alt="Work 9">
+            <img src="01 IMAGES/SQL 2.jpg" alt="Work 10">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
